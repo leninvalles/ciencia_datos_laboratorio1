@@ -11,6 +11,11 @@ colnames(epa_http) <- c("IP", "Tiempo", "Tipo", "URL", "Protocolo", "Codigo", "B
 epa_http$Bytes <- as.numeric(epa_http$Bytes)
 mean(epa_http$Bytes, na.rm = TRUE)
 
+#Pregunta 3: Mayor volumen de peticiones HTTP de tipo “GET”
+
+
+
+
 
 
 
